@@ -1,0 +1,35 @@
+.media {
+  box-shadow: inset 0 0 0 6px #1b3f62;
+  padding: 6px 6px;
+  &__content {
+    display: flex;
+    &__video {
+      width: 699px;
+      height: 401px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &__images {
+      margin-left: 60px;
+    }
+    &__size {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__img {
+      width: calc(100% / 3 - 55px);
+      height: 232px;
+    }
+    &__little {
+      display: flex;
+      margin-top: 20px;
+      justify-content: space-between;
+    }
+    &__pic {
+      width: calc(100% / 5 - 30px);
+      height: 139px;
+    }
+  }
+}

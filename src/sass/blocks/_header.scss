@@ -1,0 +1,148 @@
+.header {
+  &__top {
+    padding: 6px 50px;
+    background-color: #1b3f62;
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__info {
+      display: flex;
+    }
+    &__phone {
+      display: flex;
+      align-items: center;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 9px;
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+    }
+    &__mail {
+      display: flex;
+      align-items: center;
+      margin-left: 53px;
+      a {
+        margin-left: 9px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+    }
+    &__contacts {
+      margin-left: 52px;
+      display: flex;
+      align-items: center;
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+    }
+    &__langs {
+      display: flex;
+    }
+    &__online {
+      margin-right: 225px;
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    }
+    &__list {
+      display: flex;
+      li {
+        margin-left: 10px;
+        a {
+          font-weight: 500;
+          font-size: 18px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  &__bottom {
+    width: 100%;
+    height: 113px;
+    background: #e2c963;
+    border: 6px solid #1b3f62;
+    padding: 8px 72px 0 72px;
+    display: flex;
+    &__logo {
+      display: flex;
+      align-items: center;
+      img {
+      }
+      span {
+        font-family: "Red Hat Text", sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #1b3f62;
+        line-height: 29px;
+        margin-left: 41px;
+      }
+    }
+    &__list {
+      ul {
+        display: flex;
+        .active {
+          background-color: #1b3f62;
+          height: 93px;
+          border-radius: 13px 13px 0 0;
+          width: 154px;
+          a {
+            color: #fff;
+            font-weight: 500;
+          }
+        }
+        li {
+          margin-left: 30px;
+          display: flex;
+          align-items: center;
+          transition: 0.3s;
+          justify-content: center;
+          width: 154px;
+          border-radius: 13px 13px 0 0;
+
+          &:nth-child(4) {
+            width: 200px;
+          }
+          &:nth-child(5) {
+            margin-left: 50px;
+            width: 180px;
+          }
+          &:hover {
+            background-color: #1b3f62;
+            height: 93px;
+            a {
+              color: #fff;
+            }
+          }
+          a {
+            font-weight: bold;
+            font-size: 22px;
+            color: #24273c;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+    &__search {
+      display: flex;
+      align-items: center;
+      margin-left: 100px;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+* {
+  font-family: "Aeroport", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .mechanic {
+    position: fixed;
+    top: 0;
+    z-index: -2;
+  }
+  .yellow {
+    position: fixed;
+    background-color: #e9d383;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  .body__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1b3f62;
+    padding: 35px 0;
+    span {
+      font-weight: normal;
+      font-size: 33px;
+      line-height: 42px;
+      text-align: center;
+      color: #000000;
+      margin-top: 40px;
+    }
+  }
+}
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/production";
+@import "blocks/npo";
+@import "blocks/news";
+@import "blocks/media";
+@import "blocks/services";
+@import "blocks/footer";

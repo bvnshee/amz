@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Aeroport Mono";
+  src: url("AeroportMono.eot");
+  src: local("Aeroport Mono"), local("AeroportMono"),
+    url("AeroportMono.eot?#iefix") format("embedded-opentype"),
+    url("AeroportMono.woff2") format("woff2"),
+    url("AeroportMono.woff") format("woff"),
+    url("AeroportMono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeroport";
+  src: url("Aeroport-Bold.eot");
+  src: local("Aeroport Bold"), local("Aeroport-Bold"),
+    url("Aeroport-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Aeroport-Bold.woff2") format("woff2"),
+    url("Aeroport-Bold.woff") format("woff"),
+    url("Aeroport-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeroport";
+  src: url("Aeroport.eot");
+  src: local("Aeroport"), url("Aeroport.eot?#iefix") format("embedded-opentype"),
+    url("Aeroport.woff2") format("woff2"), url("Aeroport.woff") format("woff"),
+    url("Aeroport.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeroport";
+  src: url("Aeroport-Medium.eot");
+  src: local("Aeroport Medium"), local("Aeroport-Medium"),
+    url("Aeroport-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Aeroport-Medium.woff2") format("woff2"),
+    url("Aeroport-Medium.woff") format("woff"),
+    url("Aeroport-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}

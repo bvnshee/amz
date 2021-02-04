@@ -1,0 +1,12 @@
+.npo {
+  box-shadow: inset 0 0 0 6px #1b3f62;
+  padding: 6px 6px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    height: 388px;
+    img {
+      width: calc(100% / 4 - 20px);
+    }
+  }
+}

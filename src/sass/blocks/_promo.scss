@@ -1,0 +1,50 @@
+.promo {
+  box-shadow: inset 0 0 0 6px #1b3f62;
+  padding: 6px 5px 0 5px;
+  &__info {
+    display: flex;
+    &__main {
+      overflow: hidden;
+      width: 698px;
+      height: 822px;
+      position: relative;
+      img {
+        filter: blur(4px);
+      }
+      .opacity {
+        padding: 63px 72px 397px 50px;
+        position: absolute;
+        background: rgba(27, 63, 98, 0.7);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        p {
+          font-weight: bold;
+          font-size: 35px;
+          line-height: 37px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+        span {
+          display: block;
+          font-weight: 500;
+          font-size: 29px;
+          color: #ffffff;
+          margin-top: 32px;
+        }
+      }
+    }
+    &-block {
+      display: flex;
+      &:nth-child(2) {
+        margin-top: 15px;
+      }
+      &__img {
+        width: 600px;
+        height: 400px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
